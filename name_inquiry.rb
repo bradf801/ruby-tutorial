@@ -1,4 +1,4 @@
-puts 'Yo bitch, what yo name be?'
+puts 'Yo, what\'s your name?'
 firstname = gets.chomp
 puts 'That it?'
 middlename = gets.chomp

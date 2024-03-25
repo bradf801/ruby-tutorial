@@ -1,6 +1,6 @@
 wordarray = []
 
-puts 'Type some words, bitch'
+puts 'Type some words'
 
 addword = gets.chomp
 wordarray.push addword
