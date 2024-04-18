@@ -110,7 +110,7 @@ def englishNumber number
 end
 
 puts englishNumber(  0)
-puts englishNumber(  9)
+puts englishNumber(  -9)
 puts englishNumber( 10)
 puts englishNumber( 11)
 puts englishNumber( 17)
