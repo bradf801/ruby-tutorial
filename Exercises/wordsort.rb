@@ -2,7 +2,7 @@ wordarray = []
 
 puts 'Type some words'
 
-addword = gets.chomp
+addword = gets.chomp.downcase
 wordarray.push addword
 wordcount = 1
 
@@ -20,7 +20,7 @@ sortedwordarray.each do |enteredword|
 end
 
 puts 'How does that look?'
-puts wordcount.to_s
+puts 'You typed ' + wordcount.to_s + ' words'
 
 =begin
 while enteredword < wordarray[wordcount]
